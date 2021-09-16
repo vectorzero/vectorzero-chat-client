@@ -12,11 +12,9 @@ import RouterPage from "./router";
 function App() {
   return (
     <div>
-      <header>
-        <ConfigProvider>
-          <RouterPage />
-        </ConfigProvider>
-      </header>
+      <ConfigProvider>
+        <RouterPage />
+      </ConfigProvider>
     </div>
   );
 }
